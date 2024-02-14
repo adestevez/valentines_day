@@ -1,0 +1,60 @@
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+	<link rel="icon" type="image/x-icon" href="./favicon.ico">
+	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<link href="./style.css" rel="stylesheet" type="text/css">
+	<style id="dynamic"></style>
+	<title>Happy Valentine's Day!</title>
+</head>
+
+<body>
+	<script src="button.js"></script>
+	<div id="falling-hearts"></div>
+	<div class="main">
+		<h1>Te amo mi amor!</br>
+			<span class="">En este dia </span></br>
+			<span class="">mi pregunta es</span></br>
+			<span class="">Quieres ser mi</span></br>
+			<span class="">Valentin?</span></br>
+
+		</h1>
+
+		<div>
+			<a href="redirect.html">
+				<button class="button yes-button" onclick="yesButtonClick()">Si</button>
+			</a>
+			
+			<button class="button no-button" onclick="noButtonClick()">No</button>
+		</div>
+		
+		<h2>
+			Para <span id="valentine">Pame</span>:
+			<br />
+			<span id="message">Eres mi reina</span>
+		</h2>
+	</div>
+	<script src="./script.js" type="text/javascript"></script>
+	<script type="module">
+		// Import the functions you need from the SDKs you need
+		import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
+		// TODO: Add SDKs for Firebase products that you want to use
+		// https://firebase.google.com/docs/web/setup#available-libraries
+	  
+		// Your web app's Firebase configuration
+		const firebaseConfig = {
+		  apiKey: "AIzaSyCsSfD4H9hfD-Haun6KI5cWALPI2UJRxxQ",
+		  authDomain: "valentin-c2e7c.firebaseapp.com",
+		  projectId: "valentin-c2e7c",
+		  storageBucket: "valentin-c2e7c.appspot.com",
+		  messagingSenderId: "328715338243",
+		  appId: "1:328715338243:web:431dfeae581172e6798436"
+		};
+	  
+		// Initialize Firebase
+		const app = initializeApp(firebaseConfig);
+	  </script>
+</body>
+
+</html>
